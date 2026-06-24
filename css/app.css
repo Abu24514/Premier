@@ -1,0 +1,541 @@
+/* ================= TABLET ================= */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .hero {
+    height: 550px;
+    padding: 1rem 2rem;
+  }
+
+  #search {
+    display: none;
+  }
+
+  .headAndExpo .headAndcir .head {
+    font-size: 2.5rem;
+    width: 250px;
+  }
+
+  .headAndExpo .headAndcir .gol {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .expo-sp p {
+    font-size: 1.2rem;
+  }
+
+  .expo-sp i {
+    font-size: 1.5rem;
+  }
+
+  .image-marquees {
+    height: 100px;
+    margin-top: 2.5rem;
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -90px;
+    }
+  }
+
+  .item {
+    width: 90px;
+    height: 90px;
+
+    left: max(calc(70px * 8), 100%);
+  }
+
+  .alphabets {
+    height: 8vh;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .alphabets span {
+    font-size: 0.9rem;
+  }
+
+  .alphabets p {
+    font-size: 0.8rem;
+  }
+
+  .page {
+    padding: 1rem 2rem;
+  }
+
+  .page-2 {
+    gap: 1rem;
+  }
+
+  .page-2 .topArea {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+  }
+
+  .topArea .l-show {
+    width: 55%;
+    height: 100%;
+  }
+
+  .topArea .r-show {
+    width: 45%;
+    height: 100%;
+  }
+
+  .page-2 .bottomArea {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+  }
+
+  .bottomArea .s-l-show {
+    width: 45%;
+    height: 100%;
+  }
+
+  .bottomArea .s-r-show {
+    width: 55%;
+    height: 100%;
+    background-color: rgb(196, 107, 213);
+  }
+
+  .page-4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .elem {
+    padding: 2rem;
+    height: 25%;
+  }
+
+  .elem img {
+    width: 80px;
+    height: 80px;
+    left: 18%;
+  }
+
+  .elem h4 {
+    font-size: 1.4rem;
+  }
+
+  .elem-part2 h3 {
+    font-size: 1.4rem;
+  }
+
+  .elem-part2 h5 {
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .page-5 {
+    height: 600px;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .page-5 .upper {
+    height: 100%;
+  }
+
+  .page-5 .lower {
+    height: 100%;
+  }
+
+  .lower-up h2 {
+    font-size: 2rem;
+  }
+
+  .lower-up h3 {
+    font-size: 1.8rem;
+  }
+
+  .l-para {
+    margin-top: 0.8rem;
+  }
+
+  .l-para p {
+    font-size: 0.8rem;
+    color: #484848;
+  }
+
+  .text-marquee {
+    padding: 1.2rem 0;
+  }
+
+  .marquee-content h3 {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+
+  .blog-heading {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px 450px;
+    gap: 1rem;
+  }
+
+  .div1,
+  .div2 {
+    padding: 0.5rem;
+  }
+
+  .l-cir {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    font-size: 1.2rem;
+  }
+
+  .cont h3 {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-weight: 600;
+  }
+
+  .div3,
+  .div4 {
+    height: auto;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+  }
+
+  .footer-box {
+    border-bottom: none;
+    border-right: 1px solid #000;
+    min-height: 180px;
+  }
+
+  .footer-box:last-child {
+    border-right: none;
+  }
+
+  .footer-logo {
+    width: 180px;
+  }
+
+  .footer-box a {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .footer-top {
+    padding: 1.2rem;
+  }
+
+  .footer-bottom {
+    padding: 1.2rem;
+  }
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 1024px) {
+  .navbar {
+    height: 80px;
+    padding: 0 2.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 230px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  #nav-links {
+    flex: 1;
+    height: 100%;
+    display: flex;
+  }
+
+  #nav-links a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #000;
+
+    font-size: clamp(1rem, 5vw, 1.4rem);
+    font-weight: 600;
+
+    border-left: 1px solid #000;
+  }
+
+  #search {
+    width: 70px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-left: 1px solid #000;
+
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .hero {
+    height: 660px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .headAndExpo {
+    height: 40%;
+  }
+
+  .headAndExpo .headAndcir .head {
+    font-size: 3.5rem;
+    width: 350px;
+  }
+
+  .headAndExpo .headAndcir .gol {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .expo-sp {
+    margin-top: 1rem;
+  }
+
+  .expo-sp p {
+    font-size: 1.5rem;
+  }
+
+  .expo-sp i {
+    font-size: 2rem;
+  }
+
+  .image-marquees {
+    max-width: 1536px;
+    height: 140px;
+    margin-top: 3rem;
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -130px;
+    }
+  }
+
+  .item {
+    width: 130px;
+    height: 130px;
+
+    left: max(calc(80px * 8), 100%);
+  }
+
+  .alphabets {
+    height: 10vh;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .alphabets span {
+    font-size: 1.8rem;
+  }
+
+  .alphabets p {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .circle {
+    width: 380px;
+    height: 380px;
+  }
+
+  .text span {
+    font-size: 1.5em;
+  }
+
+  .arrow {
+    width: 100px;
+    height: 100px;
+  }
+
+  .r-show .r-show-hp {
+    margin-top: 0.8rem;
+  }
+
+  .r-show-hp h3 {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  .r-show-hp p {
+    font-size: 1.2rem;
+    width: 55%;
+    line-height: 1.2;
+    color: #434343;
+  }
+
+  .s-l-show-h {
+    padding: 0.8rem 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  .page {
+    padding: 0.8rem 2rem;
+  }
+
+  .page-3 {
+    height: 700px;
+  }
+
+  .elem img {
+    width: 90px;
+    height: 90px;
+    left: 20%;
+  }
+
+  .elem h4 {
+    font-size: 2rem;
+  }
+
+  .elem-part2 h3 {
+    font-size: 2rem;
+  }
+
+  .elem-part2 h5 {
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+  }
+
+  .page-5 {
+    height: 900px;
+    gap: 1.5rem;
+  }
+
+  .page-5 .upper {
+    height: 100%;
+  }
+
+  .page-5 .lower {
+    height: 100%;
+  }
+
+  .lower-up h2 {
+    font-size: 3.5rem;
+  }
+
+  .lower-up h3 {
+    font-size: 2.8rem;
+  }
+
+  .l-para {
+    margin-top: 1rem;
+  }
+
+  .l-para p {
+    font-size: 1.5rem;
+  }
+
+  .marquee-content h3 {
+    font-size: 3.5rem;
+    margin-right: 4rem;
+  }
+
+  .blog-heading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 220px 500px;
+    gap: 1rem;
+  }
+
+  .div1 {
+    grid-column: 1 / 4;
+  }
+
+  .div2 {
+    grid-column: 4 / 7;
+  }
+
+  .div3 {
+    grid-column: 1 / 4;
+  }
+
+  .div4 {
+    grid-column: 4 / 7;
+  }
+
+  .l-cir {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    font-size: 1.4rem;
+  }
+
+  .cont h3 {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  .footer {
+
+    grid-template-columns: 2.5fr 1.2fr 1.2fr 3.5fr;
+  }
+
+  .footer-box {
+    min-height: 220px;
+  }
+
+  .footer-logo {
+    width: 280px;
+  }
+
+  .footer-box a {
+    font-size: 1.5rem;
+  }
+
+  .footer-top {
+    height: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-bottom {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .socials i {
+    font-size: 1.4rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+}
