@@ -68,5 +68,7 @@ Premier-Clone/
 ├── assets/
 │
 └── screenshots/
+    ├── desktop.png
+    ├── tablet.png
+    └── mobile.png
 ```
-
