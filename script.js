@@ -73,25 +73,25 @@ function renderPage4(images) {
       id: 1,
       head: "MEN'S FASHION",
       secHead: "Khadim x Tom Ford Collection",
-      para: "25 March 2020",
+      para: "25 March 2024",
     },
     {
       id: 2,
       head: "WOMEN'S FASHION",
       secHead: "Spring Summer Trends",
-      para: "18 April 2020",
+      para: "18 April 2024",
     },
     {
       id: 3,
       head: "BRANDING",
       secHead: "Luxury Editorial Shoot",
-      para: "10 May 2020",
+      para: "10 May 2024",
     },
     {
       id: 4,
       head: "MODELS TALK",
       secHead: "Glass x Bella",
-      para: "18 January 2020",
+      para: "18 January 2025",
     },
   ];
 
